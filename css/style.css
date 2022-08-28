@@ -1,9 +1,102 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: hsl(217, 54%, 11%);
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 350px;
+  height: 610px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.info {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+img {
+  width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+img:hover {
+    transform: scale(1);
+    filter: blur(5px);
+}
+.avatar {
+    width: 35px;
+    border: 1px solid yellow;
+    border-radius: 50px;
+}
+h2 a {
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
     color: white;
+}
+h2, a:active {
+    color: hsl(178, 100%, 50%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+hr {
+    background-color: hsl(215, 32%, 27%);
+}
+.price-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.time {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+.clock {
+    width: 25px;
+    margin-right: 5px;
+}
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.eth-logo {
+    width: 15px;
+    margin-right: 5px;
+}
+.card-foot {
+    display: flex;
+    align-items: center;
+}
+.card-foot p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+.card-foot span {
+    color: white;
+}
+span a {
+    color: white;
+    text-decoration: none;
+}
+span a:hover {
+    color: hsl(178, 100%, 50%);
 }
