@@ -10,18 +10,19 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .card {
   background-color: hsl(216, 50%, 16%);
   max-width: 350px;
-  height: 610px;
+  height: 600px;
   border-radius: 20px;
   padding: 25px;
 }
 .info {
   color: hsl(215, 51%, 70%);
   font-size: 16px;
+  margin-top: 15px;
 }
 img {
   display: flex;
@@ -31,13 +32,18 @@ img {
 }
 img:hover {
   transform: scale(1.05);
-  transition: ease-in .5s;
-  transition: ease-out .5s;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
 }
 .avatar {
   width: 35px;
   border: 1px solid yellow;
   border-radius: 50px;
+  border-top: 2 px solid;
+  margin-top: 15px;
+}
+.title {
+  margin-top: 15px;
 }
 h2 a {
   font-size: 1em;
@@ -56,13 +62,12 @@ a:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-hr {
-  background-color: hsl(215, 32%, 27%);
-}
 .price-time {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .price {
   display: flex;
@@ -88,8 +93,11 @@ hr {
 .card-foot {
   display: flex;
   align-items: center;
+  border-top: .5px solid hsl(215, 21%, 31%);
+  margin-bottom: 10px;
 }
 .card-foot p {
+  margin-top: 15px;
   color: hsl(215, 51%, 70%);
   margin-left: 10px;
 }
